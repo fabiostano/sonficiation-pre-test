@@ -1,0 +1,26 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}How the comparisons work{{ endblock }}
+{{ block content }}
+<p class="eyebrow">Before you begin</p>
+<p>You will complete <strong>40 comparisons</strong>. Each comparison has two short steps:</p>
+<ol class="instructions-list">
+    <li>Listen to Sound A, then Sound B. Rate the mental-state changes Sound B seems to
+        communicate relative to Sound A, followed by its annoyance and pleasantness.</li>
+    <li>Compare one acoustic characteristic of Sound B with Sound A using your own numerical estimate.</li>
+</ol>
+<p>Your first ratings are saved before the acoustic characteristic is revealed.
+    You may replay the sounds as often as needed, including on the second step.</p>
+<div class="reference-guide">
+    <span class="reference-number">100</span>
+    <div><strong>Sound A always has a reference value of 100.</strong>
+        <p>This is a perceptual reference, rather than the physical setting of the sound.</p></div>
+</div>
+<p>For Sound B, enter a positive number: below 100 means less of the characteristic,
+    100 means no perceived difference, and above 100 means more. Decimals are allowed.
+    There is no upper response limit.</p>
+<p>For mental-state ratings, the seven positions range from −3 to +3; 0 means no perceived
+    change in the mental state communicated. Please actively choose each response.</p>
+<p>There are no correct or incorrect answers. Respond according to your own perception.
+    Short optional breaks are offered during the experiment.</p>
+<button class="otree-btn-next btn btn-primary" type="submit">Continue</button>
+{{ endblock }}

@@ -1,0 +1,31 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Auditory stimulus evaluation{{ endblock }}
+{{ block content }}
+<p class="eyebrow">Internal stimulus pre-test</p>
+<p class="lead-copy">You will listen to pairs of short sounds: a reference (Sound A) and a modified version (Sound B).</p>
+<p>You will compare their acoustic characteristics and judge what changes in a person's mental state
+    they might represent in an auditory biofeedback system.</p>
+<div class="context-note">
+    <strong>What do the sounds communicate?</strong>
+    We are asking what the sounds seem to represent about another person's mental state,
+    rather than whether they change your own mental state.
+    The separate sound-quality questions ask how annoying or pleasant you find the sound itself.
+</div>
+<h2>Set up your listening environment</h2>
+<ul class="instructions-list">
+    <li>Use headphones if possible, in a quiet environment.</li>
+    <li>Play the volume-check sound below and choose a comfortable volume.</li>
+    <li>Keep that volume unchanged throughout the experiment.</li>
+    <li>Avoid interruptions and give your own independent judgments.</li>
+</ul>
+<section class="audio-card volume-check">
+    <h3>Volume check</h3>
+    <audio controls controlslist="nodownload noplaybackrate" preload="none" aria-label="Volume check">
+        <source src="{{ static volume_audio }}" type="audio/mpeg">
+        Your browser does not support audio playback.
+    </audio>
+    <p class="audio-error" hidden role="alert">The audio could not be loaded or decoded. Please contact the researcher.</p>
+</section>
+{{ formfields }}
+<button class="otree-btn-next btn btn-primary" type="submit">Continue to instructions</button>
+{{ endblock }}

@@ -1,0 +1,13 @@
+{{ extends 'otree/Page.html' }}
+
+{# Researcher debug tables can expose condition metadata to participants. #}
+{{ block debug_info }}{{ endblock }}
+
+{{ block styles }}
+<link rel="stylesheet" href="{{ static 'global/pretest.css' }}">
+{{ endblock }}
+
+{{ block scripts }}
+<script src="{{ static 'global/pretest.js' }}" defer></script>
+{{ endblock }}
+

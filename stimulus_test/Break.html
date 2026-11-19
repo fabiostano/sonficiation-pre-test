@@ -1,0 +1,8 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Time for a short break{{ endblock }}
+{{ block content }}
+<p class="eyebrow">{{ player.trial_index }} of {{ C.NUM_ROUNDS }} comparisons complete</p>
+<p>You may take a short break. Continue whenever you are ready.</p>
+<p class="help-copy">Please keep your playback volume at the same level when you return.</p>
+<button class="otree-btn-next btn btn-primary" type="submit">Continue comparisons</button>
+{{ endblock }}

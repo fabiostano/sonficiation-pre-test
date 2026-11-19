@@ -1,0 +1,14 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Try a practice comparison{{ endblock }}
+{{ block content }}
+<p class="eyebrow">Practice · excluded from the 40 comparisons</p>
+<p>These two players contain the <strong>same reference sound</strong>. Listen to A, then B.</p>
+{{ include 'global/AudioPair.html' }}
+<div class="reference-guide"><span class="reference-number">100</span>
+    <div><strong>Sound A — reference</strong><p>100 means no perceived difference.</p></div></div>
+<p>For this practice, compare the perceived pitch of Sound B with Sound A.
+    A number below 100 means lower pitch; above 100 means higher pitch.
+    Enter 100 if they sound the same to you.</p>
+<div class="numeric-response">{{ formfield 'practice_magnitude' }}</div>
+<button class="otree-btn-next btn btn-primary" type="submit">Begin comparisons</button>
+{{ endblock }}

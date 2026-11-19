@@ -1,0 +1,405 @@
+{
+  "version": "1.0",
+  "stimuli": [
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_01/pitch_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_pitch_low"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_01/pitch_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_pitch_high"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_01/roughness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_roughness_low"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_01/roughness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_roughness_high"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_01/brightness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_brightness_low"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_01/brightness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_brightness_high"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_01/noisiness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_noisiness_low"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_01/noisiness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_noisiness_high"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_01/pulse_frequency_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_pulse_frequency_low"
+    },
+    {
+      "base_id": "base_01",
+      "baseline_audio": "stimuli/base_01/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_01/pulse_frequency_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_01_pulse_frequency_high"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_02/pitch_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_pitch_low"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_02/pitch_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_pitch_high"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_02/roughness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_roughness_low"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_02/roughness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_roughness_high"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_02/brightness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_brightness_low"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_02/brightness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_brightness_high"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_02/noisiness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_noisiness_low"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_02/noisiness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_noisiness_high"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_02/pulse_frequency_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_pulse_frequency_low"
+    },
+    {
+      "base_id": "base_02",
+      "baseline_audio": "stimuli/base_02/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_02/pulse_frequency_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_02_pulse_frequency_high"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_03/pitch_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_pitch_low"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_03/pitch_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_pitch_high"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_03/roughness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_roughness_low"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_03/roughness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_roughness_high"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_03/brightness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_brightness_low"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_03/brightness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_brightness_high"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_03/noisiness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_noisiness_low"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_03/noisiness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_noisiness_high"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_03/pulse_frequency_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_pulse_frequency_low"
+    },
+    {
+      "base_id": "base_03",
+      "baseline_audio": "stimuli/base_03/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_03/pulse_frequency_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_03_pulse_frequency_high"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_04/pitch_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_pitch_low"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "pitch",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_04/pitch_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_pitch_high"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_04/roughness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_roughness_low"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "roughness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_04/roughness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_roughness_high"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_04/brightness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_brightness_low"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "brightness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_04/brightness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_brightness_high"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_04/noisiness_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_noisiness_low"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "noisiness",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_04/noisiness_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_noisiness_high"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "low",
+      "manipulated_audio": "stimuli/base_04/pulse_frequency_low.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_pulse_frequency_low"
+    },
+    {
+      "base_id": "base_04",
+      "baseline_audio": "stimuli/base_04/baseline.mp3",
+      "characteristic": "pulse_frequency",
+      "endpoint": "high",
+      "manipulated_audio": "stimuli/base_04/pulse_frequency_high.mp3",
+      "actual_parameter_value": null,
+      "actual_parameter_unit": null,
+      "stimulus_id": "base_04_pulse_frequency_high"
+    }
+  ]
+}

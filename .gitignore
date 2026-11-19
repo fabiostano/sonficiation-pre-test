@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+db.sqlite3
+.env
+.DS_Store
+_static/.DS_Store
+_static_root/
+__temp_*/
+_static/stimuli/prepared/
+

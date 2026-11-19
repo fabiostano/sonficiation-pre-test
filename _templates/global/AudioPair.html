@@ -1,0 +1,19 @@
+<section class="audio-pair" data-audio-pair data-audio-key="{{ audio_key }}" aria-label="Sound comparison">
+    <div class="audio-card">
+        <h2>Sound A <span>Reference</span></h2>
+        <audio data-sound="a" controls controlslist="nodownload noplaybackrate" preload="none" aria-label="Sound A — Reference">
+            <source src="{{ static audio_a }}" type="audio/mpeg">
+            Your browser does not support audio playback.
+        </audio>
+        <p class="audio-error" hidden role="alert">Sound A could not be loaded or decoded. Please contact the researcher.</p>
+    </div>
+    <div class="audio-card" data-comparison-card>
+        <h2>Sound B <span>Comparison</span></h2>
+        <audio data-sound="b" controls controlslist="nodownload noplaybackrate" preload="none" aria-label="Sound B — Comparison">
+            <source src="{{ static audio_b }}" type="audio/mpeg">
+            Your browser does not support audio playback.
+        </audio>
+        <p class="playback-hint" data-unlock-note hidden aria-live="polite">Listen to Sound A first. Sound B unlocks when it finishes.</p>
+        <p class="audio-error" hidden role="alert">Sound B could not be loaded or decoded. Please contact the researcher.</p>
+    </div>
+</section>

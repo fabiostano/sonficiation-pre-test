@@ -1,0 +1,19 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Compare the acoustic characteristic{{ endblock }}
+{{ block content }}
+{{ include 'global/Progress.html' }}
+<p class="stage">Step 2 of 2 · {{ characteristic_info.label }}</p>
+<p class="saved-note">Your first-impression ratings have been saved.</p>
+{{ include 'global/AudioPair.html' }}
+<div class="reference-guide"><span class="reference-number">{{ C.REFERENCE_MAGNITUDE }}</span>
+    <div><strong>Sound A — reference</strong><p>The reference value is always 100.</p></div></div>
+<h2 class="magnitude-question">{{ characteristic_info.question }}</h2>
+<details class="characteristic-help"><summary>About {{ characteristic_info.label }}</summary>
+    <p>{{ characteristic_info.explanation }}</p></details>
+<div class="numeric-response">{{ formfield 'magnitude_estimate' }}</div>
+<div class="magnitude-guide"><span><strong>Below 100</strong>{{ characteristic_info.lower }}</span>
+    <span><strong>100</strong>No perceived difference</span>
+    <span><strong>Above 100</strong>{{ characteristic_info.higher }}</span></div>
+<p class="help-copy">Enter any positive number that matches your perception. Decimals are allowed.</p>
+<button class="otree-btn-next btn btn-primary" type="submit">Save comparison and continue</button>
+{{ endblock }}

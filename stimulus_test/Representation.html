@@ -1,0 +1,43 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Listen and compare{{ endblock }}
+{{ block content }}
+{{ include 'global/Progress.html' }}
+<p class="stage">Step 1 of 2 · First impressions</p>
+<p>Listen to Sound A, then Sound B. You may replay either sound as often as needed.</p>
+{{ include 'global/AudioPair.html' }}
+
+{{ if dimensions }}
+<section class="assessment-section" aria-labelledby="representation-heading">
+    <h2 id="representation-heading">What does Sound B communicate?</h2>
+    <p class="context-note">Imagine these sounds communicate changes in a person's mental state through an
+        auditory biofeedback system. Compared with Sound A, what change in that person's mental state
+        does Sound B seem to represent? Rate the meaning communicated, rather than an effect on your own mental state.</p>
+    {{ for dimension in dimensions }}
+    <fieldset class="rating-question bipolar-question" data-bipolar>
+        <legend id="label-{{ dimension.field }}">{{ dimension.question }}</legend>
+        <div class="slider-source">{{ formfield dimension.field label='' }}</div>
+        <div class="slider-mount"></div>
+        <div class="scale-labels"><span>−3 · {{ dimension.left }}</span>
+            <span>0 · {{ dimension.center }}</span><span>+3 · {{ dimension.right }}</span></div>
+        <p class="selection-status" aria-live="polite"></p>
+        <div class="slider-errors">{{ formfield_errors dimension.field }}</div>
+    </fieldset>
+    {{ endfor }}
+</section>
+{{ endif }}
+
+<section class="assessment-section" aria-labelledby="quality-heading">
+    <h2 id="quality-heading">How does Sound B sound to you?</h2>
+    <p class="help-copy">These questions concern the sound itself.</p>
+    {{ for dimension in quality_dimensions }}
+    <fieldset class="rating-question quality-question">
+        <legend>{{ dimension.question }}</legend>
+        <div class="segmented-scale">{{ formfield dimension.field label='' }}</div>
+        <div class="scale-labels"><span>1 · {{ dimension.left }}</span>
+            <span>4 · {{ dimension.center }}</span><span>7 · {{ dimension.right }}</span></div>
+    </fieldset>
+    {{ endfor }}
+</section>
+<p class="page-error" data-page-error role="alert" hidden></p>
+<button class="otree-btn-next btn btn-primary" type="submit">Save ratings and continue</button>
+{{ endblock }}

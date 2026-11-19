@@ -1,0 +1,4 @@
+-r requirements.txt
+# oTree's command-line bots use Starlette's test client, which requires requests.
+requests>=2.32,<3
+
